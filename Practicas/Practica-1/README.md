@@ -19,37 +19,38 @@ que afecta a mujeres en edad reproductiva.
   detallada sobre la institución recolectora ni el año exacto de recolección — este
   es un punto señalado como limitación en el análisis (ver sección de calidad de datos
   en el notebook).
-- **Archivo esperado:** `Datos/PCOS_extended_dataset.csv`
-
+- **Archivo esperado:** `PCOS_extended_dataset.csv` (ver ubicaciones válidas en
+  "Estructura del repositorio")
 
 ## Estructura del repositorio
 
 ```
 .
-├── Datos/
-│   └── PCOS_extended_dataset.csv     # dataset (no incluido en el repo, ver Requisitos)
-├── notebooks/
-│   └── analisis_pcos.ipynb           # notebook principal con el EDA completo
-├── src/                              # scripts auxiliares por sección de análisis
-│   ├── univariado.py
-│   ├── antropometricas.py
-│   ├── cycle_length.py
-│   ├── hormonal.py
-│   ├── amh_vs_pcos.py
-│   └── multivariado.py
+├── Practica-I.ipynb        # notebook principal con el EDA completo
+├── Images/                 # figuras generadas por el notebook (Figura 1 a 8, PNG)
+├── requirements.txt        # dependencias de Python
 └── README.md
 ```
+
+El dataset (`PCOS_extended_dataset.csv`) no está incluido en el repositorio. El
+notebook lo busca automáticamente en su propia carpeta, en una subcarpeta `Datos/`,
+o en las mismas ubicaciones dentro de cualquier carpeta superior — alcanza con
+colocar el CSV en `Practicas/Practica-1/` o en `Practicas/Practica-1/Datos/`.
 
 ## Requisitos de ejecución
 
 - **Python** ≥ 3.9
-- **Librerías necesarias:**
+- **Librerías necesarias** (ver `requirements.txt`):
 
 ```bash
-pip install pandas numpy matplotlib seaborn scipy
+pip install -r requirements.txt
 ```
 
 ## Hallazgos principales
 
-Un resumen detallado de hallazgos, preguntas abiertas y problemas de calidad de datos
-que requieren corrección se encuentra en la sección de cierre del notebook principal.
+El notebook cierra con una comparativa entre los valores de referencia clínica
+estándar (AMH, duración del ciclo, hirsutismo, acantosis nigricans, acné/alopecia)
+y los resultados obtenidos en la cohorte del dataset, junto con las guías y
+consensos citados (APA 7). Un resumen detallado de hallazgos, preguntas abiertas
+y problemas de calidad de datos corregidos durante el análisis se encuentra en la
+sección de conclusión del notebook.

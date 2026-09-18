@@ -1,4 +1,4 @@
-## Introduccion a ciencia de datos
+# Introduccion a ciencia de datos
 
 "Este repositorio contiene el material desarrollado durante el curso de Introducción a Ciencia de Datos, como parte de mi formación en la maestría en Ciencias de la Computación. Aquí se recopilan los notebooks, ejercicios, tareas y proyectos realizados a lo largo del semestre, documentando el proceso de aprendizaje de los fundamentos y herramientas esenciales de la disciplina.
 
@@ -7,3 +7,5 @@ El curso abarca los conceptos centrales del flujo de trabajo en ciencia de datos
 Cada carpeta o notebook dentro de este repositorio corresponde a un tema o unidad específica del curso, e incluye tanto el código como las explicaciones y conclusiones relevantes de cada ejercicio."
 
 -En la carpeta [Tareas](./Tareas/) se encontraran los trabajos realizados en clase.
+-En la carpeta [Practicas](./Practicas/) se encuentran las practicas asignadas en clase.
+-En la carpeta [Datos](./Datos/) se encontraran los datos utilizados para cada practica realizada.
