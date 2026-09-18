@@ -32,10 +32,7 @@ que afecta a mujeres en edad reproductiva.
 └── README.md
 ```
 
-El dataset (`PCOS_extended_dataset.csv`) no está incluido en el repositorio. El
-notebook lo busca automáticamente en su propia carpeta, en una subcarpeta `Datos/`,
-o en las mismas ubicaciones dentro de cualquier carpeta superior — alcanza con
-colocar el CSV en `Practicas/Practica-1/` o en `Practicas/Practica-1/Datos/`.
+El dataset (`PCOS_extended_dataset.csv`) si está incluido en el repositorio. Pero en una carpeta distinta fuera de la carpeta del proyecto [Datos](../../Datos/)
 
 ## Requisitos de ejecución
 
