@@ -21,11 +21,6 @@ que afecta a mujeres en edad reproductiva.
   en el notebook).
 - **Archivo esperado:** `Datos/PCOS_extended_dataset.csv`
 
-> ⚠️ **Nota de calidad de datos:** durante el análisis se identificaron múltiples
-> inconsistencias en el dataset (valores fuera de rango en variables hormonales,
-> una columna `Cycle(R/I)` con un valor no documentado, y una posible discrepancia
-> entre el nombre de la columna `Cycle length(days)` y lo que realmente parece medir).
-> Estos hallazgos están documentados con detalle en el notebook principal.
 
 ## Estructura del repositorio
 
