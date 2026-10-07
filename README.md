@@ -6,6 +6,8 @@ El curso abarca los conceptos centrales del flujo de trabajo en ciencia de datos
 
 Cada carpeta o notebook dentro de este repositorio corresponde a un tema o unidad específica del curso, e incluye tanto el código como las explicaciones y conclusiones relevantes de cada ejercicio."
 
--En la carpeta [Tareas](./Tareas/) se encontraran los trabajos realizados en clase.
--En la carpeta [Practicas](./Practicas/) se encuentran las practicas asignadas en clase.
--En la carpeta [Datos](./Datos/) se encontraran los datos utilizados para cada practica realizada.
+| Carpeta | Contenido |
+| --- | --- |
+| [Tareas](./Tareas/) | Trabajos realizados en clase |
+| [Practicas](./Practicas/) | Prácticas asignadas en clase |
+| [Datos](./Datos/) | Datos utilizados para cada práctica realizada |
