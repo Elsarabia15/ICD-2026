@@ -16,3 +16,13 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Proyecto C-MAPSS: archivos que genera el notebook (pesan más de 50 MB y se regeneran al ejecutarlo)
+Proyecto/CMAPSSData/CMAPSS-v2/
+
+# Proyecto C-MAPSS: primera versión (se conserva en disco, no se entrega)
+Proyecto/Proyecto-CMAPSS.ipynb
+Proyecto/CMAPSSData/CMAPSS-final/
+Proyecto/CMAPSSData/CMAPSS-procesado/
+Proyecto/Images/Correlacion sensores vs RUL.png
+Proyecto/Predicciones/predicciones_test.csv

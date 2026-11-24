@@ -1,0 +1,16 @@
+# Versiones con las que se ejecutó Proyecto-CMAPSS-v2.ipynb (Python 3.14.10, Windows 11)
+numpy==2.5.4
+pandas==3.1.0
+matplotlib==3.11.2
+scikit-learn==1.9.1
+xgboost==3.4.1
+lightgbm==4.7.0
+optuna==5.0.0
+ipykernel==6.31.0
+
+# Sección 9.11 (Chronos-2). PyTorch se ejecutó con CUDA 13.2 en una GPU NVIDIA:
+#   pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cu132
+# Sin GPU funciona igual con la versión de CPU (más lento):
+#   pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0
+chronos-forecasting==2.3.2
