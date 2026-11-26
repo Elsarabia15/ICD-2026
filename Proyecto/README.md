@@ -3,6 +3,11 @@
 Proyecto final de **Introducción a Ciencia de Datos** (Posgrado en Ciencias de la Computación, CICESE).
 Autor: Carlos Campos Sarabia.
 
+<p align="center">
+  <img src="Images/turbofan.webp" alt="Motor turbofán en 3D: se abre en corte, se desarma pieza por pieza (góndola, fan, compresores, cámara de combustión, turbinas, tobera) y se vuelve a ensamblar" width="100%" />
+</p>
+<p align="center"><sub>Las partes de un motor turbofán como los que simula C-MAPSS; sus modos de falla degradan el compresor de alta (HPC) y el ventilador (fan). Modelo 3D hecho con código en three.js; los detalles internos son ilustrativos.</sub></p>
+
 ## Descripción
 
 Se predice cuántos ciclos de vuelo le quedan a un motor turbofán antes de fallar (**RUL**, *Remaining Useful Life*) a partir de las lecturas de sus 21 sensores. Es un problema de **regresión** sobre series de tiempo: cada fila es un ciclo de operación de un motor.
@@ -81,6 +86,7 @@ Proyecto/
 ├── Predicciones/
 │   └── predicciones_test_v2.csv  # RUL predicho y real de cada motor de test
 └── Images/                       # las 17 figuras que genera el notebook (Figura 01 … Figura 17)
+    └── turbofan.webp             # animación del motor que se muestra en este README
 ```
 
 La carpeta `CMAPSSData/CMAPSS-v2/` no se sube porque pesa más de 50 MB y el notebook la vuelve a generar al ejecutarse.
