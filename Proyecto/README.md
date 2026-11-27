@@ -93,4 +93,4 @@ La carpeta `CMAPSSData/CMAPSS-v2/` no se sube porque pesa más de 50 MB y el not
 
 ## Declaración de uso de IA generativa
 
-Se usó Claude (Anthropic) mediante Claude Code como asistente para explicar conceptos, proponer y redactar código y documentación, y verificar resultados. El detalle está en la última celda del notebook.
+Se usó Claude (Anthropic) mediante Claude Code como asistente de redaccion en documentación. El detalle está en la última celda del notebook.
