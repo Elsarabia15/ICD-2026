@@ -26,3 +26,9 @@ Proyecto/CMAPSSData/CMAPSS-final/
 Proyecto/CMAPSSData/CMAPSS-procesado/
 Proyecto/Images/Correlacion sensores vs RUL.png
 Proyecto/Predicciones/predicciones_test.csv
+
+# Proyecto C-MAPSS: entregables que se conservan en disco, no en el repo
+Proyecto/Presentacion/
+Proyecto/Reporte/
+Proyecto/Reporte.zip
+Proyecto/Propuesta-Proyecto-CMAPSS.pdf
