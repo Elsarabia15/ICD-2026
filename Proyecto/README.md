@@ -12,6 +12,11 @@ Autor: Carlos Campos Sarabia.
 
 Se predice cuántos ciclos de vuelo le quedan a un motor turbofán antes de fallar (**RUL**, *Remaining Useful Life*) a partir de las lecturas de sus 21 sensores. Es un problema de **regresión** sobre series de tiempo: cada fila es un ciclo de operación de un motor.
 
+<p align="center">
+  <img src="Images/degradacion.webp" alt="Animación de la degradación del motor 1 de FD001: a la izquierda el turbofán en corte, cuyo compresor de alta se oscurece y se calienta conforme avanzan los ciclos; a la derecha el ciclo, el RUL, la zona sana o de desgaste y las lecturas de T50, Ps30, phi y BPR dibujándose ciclo a ciclo hasta la falla en el ciclo 192" width="100%" />
+</p>
+<p align="center"><sub>Degradación del motor 1 de FD001 a lo largo de sus 192 ciclos. Las lecturas de T50, Ps30, phi y BPR son las reales del dataset (puntos grises: cada ciclo; línea: media móvil de 20 ciclos). El desgaste que se ve en el modelo 3D es ilustrativo y sigue a esas lecturas.</sub></p>
+
 El flujo del proyecto es:
 1. **Datos:** carga de los 4 subconjuntos, cálculo del RUL y etiqueta de la condición de vuelo de cada ciclo.
 2. **Análisis exploratorio:** calidad de los datos, vida de los motores, zona sana y de desgaste, y sensores útiles.
@@ -86,7 +91,8 @@ Proyecto/
 ├── Predicciones/
 │   └── predicciones_test_v2.csv  # RUL predicho y real de cada motor de test
 └── Images/                       # las 17 figuras que genera el notebook (Figura 01 … Figura 17)
-    └── turbofan.webp             # animación del motor que se muestra en este README
+    ├── turbofan.webp             # animación del motor que se muestra en este README
+    └── degradacion.webp          # animación de la degradación del motor FD001_1
 ```
 
 La carpeta `CMAPSSData/CMAPSS-v2/` no se sube porque pesa más de 50 MB y el notebook la vuelve a generar al ejecutarse.
